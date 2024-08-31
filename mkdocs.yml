@@ -1,0 +1,23 @@
+site_name: Systemgym
+theme:
+  name: material
+  palette:
+    primary: 'yellow'
+    accent: 'light blue'
+nav:
+  - Sobre el Proyecto:
+      - Descripción: about.md
+      - Integrantes: integrantes.md
+  - Systemgym: systemgym.md
+
+  - Administrador Guia:
+      - Login: administrador/login.md
+      - Dashboard: administrador/dashboard.md
+      - Clientes: administrador/clientes.md
+      - Membresias: administrador/membresias.md
+      - Tarifas: administrador/tarifas.md
+      - Inscripcion: administrador/inscripcion.md
+      - Suscripcion: administrador/suscripcion.md
+      - Pagos: administrador/pagos.md
+
+  - Contacto: contacto.md
