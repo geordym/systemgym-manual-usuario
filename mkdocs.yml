@@ -11,13 +11,15 @@ nav:
   - Systemgym: systemgym.md
 
   - Administrador Guia:
-      - Login: administrador/login.md
+      - Login: administrador/login.md 
       - Dashboard: administrador/dashboard.md
-      - Clientes: administrador/clientes.md
-      - Membresias: administrador/membresias.md
-      - Tarifas: administrador/tarifas.md
-      - Inscripcion: administrador/inscripcion.md
-      - Suscripcion: administrador/suscripcion.md
-      - Pagos: administrador/pagos.md
+      - Clientes: administrador/clientes.md 
+      - Membresias: administrador/membresias.md 
+      - Tarifas: administrador/tarifas.md 
+      - Inscripcion: administrador/inscripcion.md 
+      - Suscripcion: administrador/suscripcion.md 
+      - Pagos: administrador/pagos.md 
+      - Egresos: administrador/egresos.md 
+      - Reportes: administrador/reportes.md 
 
   - Contacto: contacto.md
