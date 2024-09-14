@@ -1,40 +1,81 @@
-# Descripción del Proyecto
+# Pagos
 
-## Descripción del Problema
+## Instrucciones para Generar Pagos.
 
-Fitness Francisco, un gimnasio ubicado en Bogotá, Soacha, enfrenta varios problemas relacionados con la gestión administrativa. Los desafíos incluyen:
+En este módulo, puedes consultar el listado de pagos y realizar nuevos pagos para los clientes.
 
-- **Registro de Clientes**: Falta de un sistema efectivo para registrar y gestionar la información de los clientes.
-- **Facturación**: Problemas para llevar un control adecuado de las facturas emitidas y los pagos recibidos.
-- **Ingresos y Egresos**: Dificultades para realizar un seguimiento detallado de los ingresos y egresos del gimnasio.
-- **Membresías**: Incapacidad para verificar si los clientes tienen una membresía activa al ingresar, y falta de un sistema para controlar las renovaciones automáticas.
-- **Control de Acceso**: Necesidad de un sistema que permita controlar el acceso al gimnasio de manera eficiente.
+1.
+Ingresar al módulo de Pagos Haz clic en el botón **“Pagos”**.
 
-Para abordar estos problemas, se ha decidido desarrollar un sistema que permita gestionar de manera integral todos los aspectos administrativos del gimnasio.
+![Pagos_mod](images/Pagos_mod.png)
 
-## Objetivo General
+2.
+Se mostrará un listado de pagos. Si no aparecen pagos, es porque aún no se han realizado.
 
-Desarrollar un sistema administrativo para el gimnasio Fitness Francisco que permita gestionar de manera eficiente las membresías, clientes, accesos, facturación y reportes, resolviendo los problemas actuales y mejorando la operación general del gimnasio.
 
-## Objetivos Específicos
+![Pagos_list](images/Pagos_lista_de_pagos.png)
 
-1. **Gestión de Membresías y Tarifas**
-   - **a.** Gestionar los tipos de membresías ofrecidas por el gimnasio.
-   - **b.** Gestionar los accesos y beneficios asociados a cada tipo de membresía.
-   - **c.** Controlar las renovaciones automáticas de las membresías.
 
-2. **Gestión de Clientes**
-   - **a.** Registrar la información de los clientes en el sistema.
-   - **b.** Mantener un historial de entradas y salidas de los clientes.
+## **Crear Pagos**
 
-3. **Control de Acceso**
-   - **a.** Implementar un sistema de control de entrada mediante huella dactilar.
-   - **b.** Verificar que los clientes tengan una membresía activa al momento de ingresar.
+3.
+Dirígete a la parte superior derecha y haz clic en el botón que dice **“Ir a Crear Pagos”**.
 
-4. **Gestión de Facturación y Pagos**
-   - **a.** Generar facturas automáticamente para las membresías y servicios.
-   - **b.** Registrar los pagos realizados por los clientes.
+![Pago_crear](images/Pagos_crear_pagos.png)
 
-5. **Reportes y Análisis**
-   - **a.** Generar reportes de ingresos y egresos del gimnasio.
-   - **b.** Crear reportes sobre la asistencia de los clientes y el uso de los servicios ofrecidos.
+4.
+Esto te llevará a un formulario donde podrás completar los detalles del pago.
+
+![Pagos_formulario](images/Pagos_datos.png)
+
+5.
+En el formulario, encontrarás el botón **“Lista de Pagos”**. Al hacer clic, regresarás a la página anterior, donde podrás visualizar los pagos realizados.
+
+![Pagos_volver](images/Pagos_volver.png)
+
+
+## **Completa las casillas con la información solicitada**:
+
+   - **Cliente**: Selecciona al cliente que solicita el pago. Se desplegará un listado de clientes; elige el adecuado.
+
+![Pagos_clientes](images/Pagos_clientes.png)
+
+   - **Facturas**: Dependiendo del cliente seleccionado, se mostrarán las facturas pendientes de pago.
+
+![Pagos_Factura](images/Pagos_facturas.png)
+
+   - **Descripción**: Añade cualquier tipo de observación en la descripción.
+
+   ![pagos_desc](images/Pagos_Descripcion.png)
+   
+   - **Monto**: El monto corresponde al valor que el cliente adeuda y se asigna automáticamente según el cliente seleccionado.
+
+   ![Pagos_monto](images/Pagos_monto.png)
+
+   - **Método de pago**: Ingresa el método de pago preferido por el cliente, como Nequi, transferencia bancaria, efectivo o tarjeta.
+
+   ![Pagos_metodo](images/Pagos_Metodos_pagos.png)
+
+   **Al finalizar el ingreso de la información, aparece un mensaje que nos recuerda el monto pendiente por pagar.**
+
+   ![Pagos_nota](images/Pagos_notificacion.png)
+
+6.
+Finalmente, para completar el pago, presiona el botón **“Confirmar Pago”**.
+
+![Pagos_confirmar](images/Pagos_confirmar_pago.png)
+
+7.
+Si omites algún dato, aparecerá un mensaje de **“ERROR”**indicando la casilla que falta por completar.
+
+![Pagos_error](images/Pagos_error.png)
+
+8.
+Si toda la información se ha completado correctamente, aparecerá un mensaje de **“Pago Realizado”**. Finalmente, haz clic en **“OK”**.
+
+![Pagos_ok](images/Pagos_correcto.png)
+
+9.
+Después, podrás visualizar el pago de la factura en el listado de pagos.
+
+![Lista_de_pago_correcto](images/Pagos_t.png)

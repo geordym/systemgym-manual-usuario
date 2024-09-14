@@ -1,40 +1,61 @@
-# Descripción del Proyecto
+# Membresías
 
-## Descripción del Problema
+## Instrucciones para Generar una Membresía.
 
-Fitness Francisco, un gimnasio ubicado en Bogotá, Soacha, enfrenta varios problemas relacionados con la gestión administrativa. Los desafíos incluyen:
+Al entrar en el módulo de membresías, podrás visualizar el listado de membresías.
 
-- **Registro de Clientes**: Falta de un sistema efectivo para registrar y gestionar la información de los clientes.
-- **Facturación**: Problemas para llevar un control adecuado de las facturas emitidas y los pagos recibidos.
-- **Ingresos y Egresos**: Dificultades para realizar un seguimiento detallado de los ingresos y egresos del gimnasio.
-- **Membresías**: Incapacidad para verificar si los clientes tienen una membresía activa al ingresar, y falta de un sistema para controlar las renovaciones automáticas.
-- **Control de Acceso**: Necesidad de un sistema que permita controlar el acceso al gimnasio de manera eficiente.
+1.
+Ingresa al módulo de membresías, dando clic en el botón **"Membresías"**.
 
-Para abordar estos problemas, se ha decidido desarrollar un sistema que permita gestionar de manera integral todos los aspectos administrativos del gimnasio.
+![Modulo membresia](images/Mod_membresia.png)
 
-## Objetivo General
+2.
+Se visualiza el listado de membresías.
 
-Desarrollar un sistema administrativo para el gimnasio Fitness Francisco que permita gestionar de manera eficiente las membresías, clientes, accesos, facturación y reportes, resolviendo los problemas actuales y mejorando la operación general del gimnasio.
+  ![listado de membresia](images/Listado_membresia.png)
 
-## Objetivos Específicos
+   En este listado podemos ver:
 
-1. **Gestión de Membresías y Tarifas**
-   - **a.** Gestionar los tipos de membresías ofrecidas por el gimnasio.
-   - **b.** Gestionar los accesos y beneficios asociados a cada tipo de membresía.
-   - **c.** Controlar las renovaciones automáticas de las membresías.
+   - **El número de membresías actuales.**
+   - **El tipo de membresía.**
+   - **El valor.**
+   - **El periodo (Mensual, Trimensual o Anual).**
+   - **El acceso que ofrece cada membresía.**
 
-2. **Gestión de Clientes**
-   - **a.** Registrar la información de los clientes en el sistema.
-   - **b.** Mantener un historial de entradas y salidas de los clientes.
 
-3. **Control de Acceso**
-   - **a.** Implementar un sistema de control de entrada mediante huella dactilar.
-   - **b.** Verificar que los clientes tengan una membresía activa al momento de ingresar.
+3.
+En la parte superior derecha, encontrarás un botón que dice **"Ir a Membresía Crear"**.
+![ir a membresia crear](images/Crear_membresia.png)
 
-4. **Gestión de Facturación y Pagos**
-   - **a.** Generar facturas automáticamente para las membresías y servicios.
-   - **b.** Registrar los pagos realizados por los clientes.
+## **Crear una Membresía**
 
-5. **Reportes y Análisis**
-   - **a.** Generar reportes de ingresos y egresos del gimnasio.
-   - **b.** Crear reportes sobre la asistencia de los clientes y el uso de los servicios ofrecidos.
+4.
+Al hacer clic en **"Ir a Membresías Crear"**, se abrirá un formulario para crear una nueva membresía.
+![ventana crear membresia](images/Crear_membresia_ventana.png)
+
+
+   - **Nombre**: Introduce el nombre de la membresía, ejemplo: Membresía VIP, PLATINO o NORMAL.
+
+   ![Nombre membresia](images/Nombre_membresia.png)
+
+   - **Precio**: Introduce el valor designado para cada tipo de membresía.
+
+   ![Precio membresia](images/Presio_membresia.png)
+
+   - **Periodicidad**: Introduce el periodo establecido para cada tipo de membresía (Mensual, Trimensual, Anual).
+
+   ![Periodo membresia](images/Periodo_membresia.png)
+
+   - **Accesos**: Indica qué tipo de acceso posee el cliente.
+
+   ![Acesso mebresia](images/Acesso_membresia.png)
+
+5.
+Haz clic en el botón **"Crear"** para finalizar el proceso.
+
+![Crear membresia](images/Membresia_crear.png)
+
+6.
+Finalmente, aparecerá un mensaje de **"ÉXITO, Membresía creada correctamente"**.
+
+![Exito membresia](images/Membresia_exito.png)
