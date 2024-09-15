@@ -58,7 +58,7 @@ Por último, para terminar con la suscripción, damos clic en el botón **“Sus
 6.
 Nos mostrará un letrero informando si la suscripción fue **Exitosa**.
 
-__//NOTA NO ENCONTRE IMAGEN DE APOYO//__
+![Suscripcion_exito](images/Suscripcion_exitosa.png)
 
 7.
 En caso de que la suscripción no sea exitosa, nos mostrará un letrero informando que hubo un error: **“Hubo un problema al procesar la solicitud”**.
