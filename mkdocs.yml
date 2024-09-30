@@ -18,8 +18,20 @@ nav:
       - Tarifas: administrador/tarifas.md 
       - Inscripcion: administrador/inscripcion.md 
       - Suscripcion: administrador/suscripcion.md 
+      - Suscripcion desactivar: administrador/Suscripcion_Desactivar.md
       - Pagos: administrador/pagos.md 
       - Egresos: administrador/egresos.md 
       - Reportes: administrador/reportes.md 
+      - Reporte Ingreso: administrador/reporte_ingreso.md 
+      - Reporte Suscripciones Activas: administrador/reporte_suscripciones_activas.md 
+
+      - ActualizarImagen: administrador/Actualizar_imagen.md
+
+
+  - Cliente Guia:
+      - Login: cliente/login.md 
+      - ActualizarImagen: cliente/Actualizar_imagen.md
+      
+
 
   - Contacto: contacto.md
